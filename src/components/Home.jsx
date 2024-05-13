@@ -4,15 +4,15 @@ import './css/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
 
-import property1 from './images/slider-1-4 (1).jpg';
-import property2 from './images/slider-3-3 (1).jpg';
-import property3 from './images/slider-3-4.jpg';
-import property4 from './images/slider-4-1.jpg';
-import property5 from './images/slider-5-1.jpg';
-import property6 from './images/slider-6-1.jpg';
-import property7 from './images/slider-7-1.jpg';
-import property8 from './images/slider-8-1.jpg';
-import property9 from './images/slider-9-1.jpg';
+import property1 from '/assets/images/slider-1-4 (1).jpg';
+import property2 from '/assets/images/slider-3-3 (1).jpg';
+import property3 from '/assets/images/slider-3-4.jpg';
+import property4 from '/assets/images/slider-4-1.jpg';
+import property5 from '/assets/images/slider-5-1.jpg';
+import property6 from '/assets/images/slider-6-1.jpg';
+import property7 from '/assets/images/slider-7-1.jpg';
+import property8 from '/assets/images/slider-8-1.jpg';
+import property9 from '/assets/images/slider-9-1.jpg';
 
 const Home = () => {
     const [firstClick, setFirstClick] = useState(true);
@@ -41,18 +41,18 @@ const Home = () => {
     };
 
     const [images] = useState(shuffleArray([
-        "./src/components/images/property_1-min.jpg",
-        "./src/components/images/property_2-min.jpg",
-        "./src/components/images/property_3-min.jpg",
-        "./src/components/images/property_2-min.jpg",
-        "./src/components/images/property_3-min.jpg",
-        "./src/components/images/property_2-min.jpg",
-        "./src/components/images/property_1-min.jpg",
-        "./src/components/images/property_2-min.jpg",
-        "./src/components/images/property_3-min.jpg",
-        "./src/components/images/property_1-min.jpg",
-        "./src/components/images/property_2-min.jpg",
-        "./src/components/images/property_3-min.jpg",
+        "./assets/images/property_1-min.jpg",
+        "./assets/images/property_2-min.jpg",
+        "./assets/images/property_3-min.jpg",
+        "./assets/images/property_2-min.jpg",
+        "./assets/images/property_3-min.jpg",
+        "./assets/images/property_2-min.jpg",
+        "./assets/images/property_1-min.jpg",
+        "./assets/images/property_2-min.jpg",
+        "./assets/images/property_3-min.jpg",
+        "./assets/images/property_1-min.jpg",
+        "./assets/images/property_2-min.jpg",
+        "./assets/images/property_3-min.jpg",
     ]));
 
     const [imageNames] = useState([
@@ -189,7 +189,7 @@ const Home = () => {
                             <div class="col-md-6 col-lg-4">
                                 <div class="property-entry">
                                     <div className="d-flex justify-content-center">
-                                        <img src="./src/components/images/property_1-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                                        <img src="./assets/images/property_1-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                                     </div>
                                     <div class="property-specs1">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>
@@ -200,7 +200,7 @@ const Home = () => {
                             <div class="col-md-6 col-lg-4">
                                 <div class="property-entry">
                                     <div className="d-flex justify-content-center">
-                                        <img src="./src/components/images/property_2-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                                        <img src="./assets/images/property_2-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                                     </div>
                                     <div class="property-specs1">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>
@@ -211,7 +211,7 @@ const Home = () => {
                             <div class="col-md-6 col-lg-4 ">
                                 <div class="property-entry ">
                                     <div className="d-flex justify-content-center">
-                                        <img src="./src/components/images/property_3-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                                        <img src="./assets/images/property_3-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                                     </div>
                                     <div class="property-specs1">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>
@@ -230,7 +230,7 @@ const Home = () => {
                     <div className="col-md-12 aboutsynergy">
                         <div className="row">
                             <div className="col-md-4">
-                                <img src="./src/components/images/logo.png" alt="Image 1" className="img-fluid" />
+                                <img src="./assets/images/logo.png" alt="Image 1" className="img-fluid" />
                                 <p>G-70 (Lower GR- Office No 3) Sector 63 Noida.</p>
                                 <p>thesudiosynergy@gmail.com</p>
                                 <p>+91 9910403537</p>

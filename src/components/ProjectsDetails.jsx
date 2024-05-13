@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { Carousel, Modal, Button } from 'react-bootstrap';
-import property1 from './images/property_1-min.jpg';
-import property2 from './images/property_2-min.jpg';
-import property3 from './images/property_3-min.jpg';
-import property4 from './images/property_1-min.jpg';
-import property5 from './images/property_3-min.jpg';
-import property6 from './images/property_2-min.jpg';
-import property7 from './images/property_3-min.jpg';
-import property8 from './images/property_2-min.jpg';
-import property9 from './images/property_1-min.jpg';
+import property1 from '/assets/images/property_1-min.jpg';
+import property2 from '/assets/images/property_2-min.jpg';
+import property3 from '/assets/images/property_3-min.jpg';
+import property4 from '/assets/images/property_1-min.jpg';
+import property5 from '/assets/images/property_3-min.jpg';
+import property6 from '/assets/images/property_2-min.jpg';
+import property7 from '/assets/images/property_3-min.jpg';
+import property8 from '/assets/images/property_2-min.jpg';
+import property9 from '/assets/images/property_1-min.jpg';
 
 const ProjectDetails = () => {
     const [firstClick, setFirstClick] = useState(true);
@@ -98,7 +98,7 @@ const ProjectDetails = () => {
         <div style={{ backgroundColor: '#ced4da' }}>
             <div className="col-md-12">
                 <div className="row">
-                    <img src="./src/components/images/property_1-min.jpg" alt="Image 1" className="contact-img" />
+                    <img src="./assets/images/property_1-min.jpg" alt="Image 1" className="contact-img" />
                 </div>
             </div>
             <h2 className="contact-heading col-md-12">location 21</h2>
@@ -156,7 +156,7 @@ const ProjectDetails = () => {
                         <div class="col-md-6 col-lg-4">
                             <div class="property-entry">
                                 <Link to="/ProjectDetails">
-                                    <img src="./src/components/images/property_1-min.jpg" alt="Image" class="img-fluid" />
+                                    <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Link>
                                 <div class="property-specs">
                                     <div class="location d-flex justify-content-between align-items-center">
@@ -170,7 +170,7 @@ const ProjectDetails = () => {
                         <div class="col-md-6 col-lg-4">
                             <div class="property-entry">
                                 <Link to="/ProjectDetails">
-                                    <img src="./src/components/images/property_2-min.jpg" alt="Image" class="img-fluid" />
+                                    <img src="./assets/images/property_2-min.jpg" alt="Image" class="img-fluid" />
                                 </Link>
                                 <div class="property-specs">
                                     <div class="location d-flex justify-content-between align-items-center">
@@ -184,7 +184,7 @@ const ProjectDetails = () => {
                         <div class="col-md-6 col-lg-4">
                             <div class="property-entry">
                                 <Link to="/ProjectDetails">
-                                    <img src="./src/components/images/property_3-min.jpg" alt="Image" class="img-fluid" />
+                                    <img src="./assets/images/property_3-min.jpg" alt="Image" class="img-fluid" />
                                 </Link>
                                 <div class="property-specs">
                                     <div class="location d-flex justify-content-between align-items-center">
@@ -198,7 +198,7 @@ const ProjectDetails = () => {
                         <div class="col-md-6 col-lg-4">
                             <div class="property-entry">
                                 <Link to="/ProjectDetails">
-                                    <img src="./src/components/images/property_3-min.jpg" alt="Image" class="img-fluid" />
+                                    <img src="./assets/images/property_3-min.jpg" alt="Image" class="img-fluid" />
                                 </Link>
                                 <div class="property-specs">
                                     <div class="location d-flex justify-content-between align-items-center">
@@ -212,7 +212,7 @@ const ProjectDetails = () => {
                         <div class="col-md-6 col-lg-4">
                             <div class="property-entry">
                                 <Link to="/ProjectDetails">
-                                    <img src="./src/components/images/property_1-min.jpg" alt="Image" class="img-fluid" />
+                                    <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Link>
                                 <div class="property-specs">
                                     <div class="location d-flex justify-content-between align-items-center">
@@ -226,7 +226,7 @@ const ProjectDetails = () => {
                         <div class="col-md-6 col-lg-4">
                             <div class="property-entry">
                                 <Link to="/ProjectDetails">
-                                    <img src="./src/components/images/property_2-min.jpg" alt="Image" class="img-fluid" />
+                                    <img src="./assets/images/property_2-min.jpg" alt="Image" class="img-fluid" />
                                 </Link>
                                 <div class="property-specs">
                                     <div class="location d-flex justify-content-between align-items-center">
@@ -251,7 +251,7 @@ const ProjectDetails = () => {
                             <div className="col-md-6 col-lg-4">
                                 <div className="property-entry">
                                     <div className="d-flex justify-content-center">
-                                        <img src="./src/components/images/property_1-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                                        <img src="./assets/images/property_1-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                                     </div>
                                     <div className="property-specs1">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>
@@ -262,7 +262,7 @@ const ProjectDetails = () => {
                             <div className="col-md-6 col-lg-4">
                                 <div className="property-entry">
                                     <div className="d-flex justify-content-center">
-                                        <img src="./src/components/images/property_2-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                                        <img src="./assets/images/property_2-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                                     </div>
                                     <div className="property-specs1">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>

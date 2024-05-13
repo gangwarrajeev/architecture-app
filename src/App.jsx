@@ -1,4 +1,5 @@
 import React from "react";
+import {useRouterHistory} from 'react-dom'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Header';
 import Footer from './components/Footer';
@@ -14,9 +15,12 @@ import Projectmanagement from './components/Management';
 import Philosphy from './components/Philosphy';
 import ProjectsDetails from './components/ProjectsDetails';
 
+// const appHistory = useRouterHistory(createHistory)({
+//   basename:'/myapp/build'
+// });
 function App() {
   return (
-    <Router>
+    <Router basename="/myapp/build">
       <Navbar />  
       <Routes>
         <Route exact  path="/" element={<Home />} />

@@ -23,7 +23,7 @@ function Navbar() {
         <div className="container">
           <div className="site-navigation">
             <a href="/" className="logo m-0">
-              <img src="src/components/images/logo.png" alt="The Studio Synergy Logo" className="logo-image" />
+              <img src="./assets/images/logo.png" alt="The Studio Synergy Logo" className="logo-image" />
             </a>
 
 

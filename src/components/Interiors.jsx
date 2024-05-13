@@ -17,12 +17,12 @@ const shuffleArray = (array) => {
 
 const Interiors = () => {
   const [images] = useState(shuffleArray([
-    "./src/components/images/property_1-min.jpg",
-    "./src/components/images/property_2-min.jpg",
-    "./src/components/images/property_3-min.jpg",
-    "./src/components/images/property_2-min.jpg",
-    "./src/components/images/property_3-min.jpg",
-    "./src/components/images/property_2-min.jpg",
+    "./assets/images/property_1-min.jpg",
+    "./assets/images/property_2-min.jpg",
+    "./assets/images/property_3-min.jpg",
+    "./assets/images/property_2-min.jpg",
+    "./assets/images/property_3-min.jpg",
+    "./assets/images/property_2-min.jpg",
   ]));
 
   const [imageNames] = useState([
@@ -74,7 +74,7 @@ const Interiors = () => {
     <div>
       <div className="col-md-12 ">
         <div className="row">
-          <img src="./src/components/images/property_1-min.jpg" alt="Image 1" className="contact-img" />
+          <img src="./assets/images/property_1-min.jpg" alt="Image 1" className="contact-img" />
         </div>
       </div>
       <h2 className="contact-heading col-md-12">Interiors</h2>
@@ -122,7 +122,7 @@ const Interiors = () => {
               <div class="col-md-6 col-lg-4">
                 <div class="property-entry">
                   <div className="d-flex justify-content-center">
-                    <img src="./src/components/images/property_1-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                    <img src="./assets/images/property_1-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                   </div>
                   <div class="property-specs1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>
@@ -133,7 +133,7 @@ const Interiors = () => {
               <div class="col-md-6 col-lg-4">
                 <div class="property-entry">
                   <div className="d-flex justify-content-center">
-                    <img src="./src/components/images/property_2-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                    <img src="./assets/images/property_2-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                   </div>
                   <div class="property-specs1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>
@@ -144,7 +144,7 @@ const Interiors = () => {
               <div class="col-md-6 col-lg-4">
                 <div class="property-entry">
                   <div className="d-flex justify-content-center">
-                    <img src="./src/components/images/property_3-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                    <img src="./assets/images/property_3-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                   </div>
                   <div class="property-specs1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>

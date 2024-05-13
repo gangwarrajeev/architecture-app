@@ -19,7 +19,7 @@ function Footer() {
             <div class="col-md-6 col-lg-4">
               <div class="widget">
                 <a href="/" className="logo m-0">
-                  <img src="src/components/images/logo.png" alt="The Studio Synergy Logo" className="logo-image" style={{ marginBottom: '15px' }} />
+                  <img src="./assets/images/logo.png" alt="The Studio Synergy Logo" className="logo-image" style={{ marginBottom: '15px' }} />
                 </a>
                 <p>
                   Studio Synergy is a team of professionals with the passion

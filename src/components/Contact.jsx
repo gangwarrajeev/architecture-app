@@ -66,7 +66,7 @@ const Contact = () => {
     <div style={{ backgroundColor: '#ced4da' }}>
       <div className="col-md-12 ">
         <div className="row">
-          <img src="./src/components/images/property_1-min.jpg" alt="Image 1" className="contact-img" />
+          <img src="./assets/images/property_1-min.jpg" alt="Image 1" className="contact-img" />
         </div>
       </div>
       <h2 className="contact-heading col-md-12 " >Contact Us</h2>
@@ -82,7 +82,7 @@ const Contact = () => {
             <p className="address">+91 9910403537</p>
             <p className="address">+91 9999329616</p>
             <a href="/" className="logo m-0">
-              <img src="./src/components/images/logo.png" alt="The Studio Synergy Logo" className="logo-image" />
+              <img src="./assets/images/logo.png" alt="The Studio Synergy Logo" className="logo-image" />
             </a>
           </div>
           <div className="col-md-6 box_with_border2" style={{ marginTop: "61px" }}>
@@ -122,7 +122,7 @@ const Contact = () => {
               <div class="col-md-6 col-lg-4">
                 <div class="property-entry">
                   <div className="d-flex justify-content-center">
-                    <img src="./src/components/images/property_1-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                    <img src="./assets/images/property_1-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                   </div>
                   <div class="property-specs1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>
@@ -133,7 +133,7 @@ const Contact = () => {
               <div class="col-md-6 col-lg-4">
                 <div class="property-entry">
                   <div className="d-flex justify-content-center">
-                    <img src="./src/components/images/property_2-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                    <img src="./assets/images/property_2-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                   </div>
                   <div class="property-specs1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>
@@ -144,7 +144,7 @@ const Contact = () => {
               <div class="col-md-6 col-lg-4">
                 <div class="property-entry">
                   <div className="d-flex justify-content-center">
-                    <img src="./src/components/images/property_3-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
+                    <img src="./assets/images/property_3-min.jpg" style={{ width: '100px' }} alt="Image" className="img-fluid" />
                   </div>
                   <div class="property-specs1">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt soluta id nesciunt reprehenderit placeat cumque voluptatibus blanditiis molestiae ex quibusdam, odit vitae. Quisquam, et! Sapiente consequatur placeat doloribus libero possimus!</p>
