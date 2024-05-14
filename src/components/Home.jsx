@@ -4,15 +4,6 @@ import './css/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
 
-import property1 from '/assets/images/slider-1-4 (1).jpg';
-import property2 from '/assets/images/slider-3-3 (1).jpg';
-import property3 from '/assets/images/slider-3-4.jpg';
-import property4 from '/assets/images/slider-4-1.jpg';
-import property5 from '/assets/images/slider-5-1.jpg';
-import property6 from '/assets/images/slider-6-1.jpg';
-import property7 from '/assets/images/slider-7-1.jpg';
-import property8 from '/assets/images/slider-8-1.jpg';
-import property9 from '/assets/images/slider-9-1.jpg';
 
 const Home = () => {
     const [firstClick, setFirstClick] = useState(true);
@@ -111,31 +102,31 @@ const Home = () => {
             <div className="col-md-12">
                 <Carousel onClick={handleCarouselClick}>
                     <Carousel.Item>
-                        <img src={property1} alt="First slide" className="img-fluid1" />
+                    <img src="./assets/images/slider-1-4 (1).jpg" alt="First slide" className="img-fluid1" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={property2} alt="Second slide" className="img-fluid1" />
+                    <img src="./assets/images/slider-1-4 (1).jpg" alt="First slide" className="img-fluid1" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={property3} alt="Third slide" className="img-fluid1" />
+                    <img src="./assets/images/slider-1-4 (1).jpg" alt="First slide" className="img-fluid1" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={property4} alt="First slide" className="img-fluid1" />
+                    <img src="./assets/images/slider-1-4 (1).jpg" alt="First slide" className="img-fluid1" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={property5} alt="Second slide" className="img-fluid1" />
+                    <img src="./assets/images/slider-1-4 (1).jpg" alt="First slide" className="img-fluid1" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={property6} alt="Third slide" className="img-fluid1" />
+                    <img src="./assets/images/slider-1-4 (1).jpg" alt="First slide" className="img-fluid1" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={property7} alt="First slide" className="img-fluid1" />
+                    <img src="./assets/images/slider-1-4 (1).jpg" alt="First slide" className="img-fluid1" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={property8} alt="Second slide" className="img-fluid1" />
+                    <img src="./assets/images/slider-1-4 (1).jpg" alt="First slide" className="img-fluid1" />
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img src={property9} alt="Third slide" className="img-fluid1" />
+                    <img src="./assets/images/slider-1-4 (1).jpg" alt="First slide" className="img-fluid1" />
                     </Carousel.Item>
                 </Carousel>
             </div>

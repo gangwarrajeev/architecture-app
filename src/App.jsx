@@ -20,6 +20,7 @@ import ProjectsDetails from './components/ProjectsDetails';
 // });
 function App() {
   return (
+    //  basename="/myapp/build"
     <Router basename="/myapp/build">
       <Navbar />  
       <Routes>

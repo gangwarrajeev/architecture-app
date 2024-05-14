@@ -18,14 +18,14 @@ const shuffleArray = (array) => {
 const Interiors = () => {
   const [images] = useState(shuffleArray([
     "./assets/images/property_1-min.jpg",
-    "./assets/images/images/property_2-min.jpg",
-    "./assets/images/images/property_3-min.jpg",
-    "./assets/images/images/property_2-min.jpg",
-    "./assets/images/images/property_3-min.jpg",
-    "./assets/images/images/property_2-min.jpg",
-    "./assets/images/images/property_1-min.jpg",
-    "./assets/images/images/property_2-min.jpg",
-    "./assets/images/images/property_3-min.jpg",
+    "./assets/images/property_2-min.jpg",
+    "./assets/images/property_3-min.jpg",
+    "./assets/images/property_2-min.jpg",
+    "./assets/images/property_3-min.jpg",
+    "./assets/images/property_2-min.jpg",
+    "./assets/images/property_1-min.jpg",
+    "./assets/images/property_2-min.jpg",
+    "./assets/images/property_3-min.jpg",
   ]));
 
   const [imageNames] = useState([

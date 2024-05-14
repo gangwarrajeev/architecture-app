@@ -5,5 +5,6 @@ export default defineConfig({
   plugins: [reactRefresh()],
   build: {
     outDir: './build/',
+    assetsInclude: ['**/*.jpg', '**/*.jpeg', '**/*.png', '**/*.gif', '**/*.svg'], // Include various image formats
   },
 });

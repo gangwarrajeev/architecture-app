@@ -109,31 +109,31 @@ const ProjectDetails = () => {
                         <div className="row">
                             <Carousel onClick={handleCarouselClick}>
                                 <Carousel.Item>
-                                    <img src={property1} alt="Second slide" className="img-fluid" />
+                                   <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={property2} alt="Second slide" className="img-fluid" />
+                                     <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={property3} alt="Third slide" className="img-fluid" />
+                                <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={property4} alt="First slide" className="img-fluid" />
+                                <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={property5} alt="Second slide" className="img-fluid" />
+                                <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={property6} alt="Third slide" className="img-fluid" />
+                                <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={property7} alt="First slide" className="img-fluid" />
+                                <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={property8} alt="Second slide" className="img-fluid" />
+                                <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={property9} alt="Third slide" className="img-fluid" />
+                                <img src="./assets/images/property_1-min.jpg" alt="Image" class="img-fluid" />
                                 </Carousel.Item>
                             </Carousel>
                         </div>
